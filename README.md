@@ -1,5 +1,6 @@
 ## To run the client:
 From the project directory, navigate to the client directory:
+
 `cd dnd-builder-client`
 
 Install required packages:
