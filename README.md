@@ -1,5 +1,7 @@
-##To run the client:
+## To run the client:
+
 In the project dirctory:
+
 Install typescript:
 
 ### `yarn add typescript`
