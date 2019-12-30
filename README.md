@@ -6,7 +6,7 @@ From the project directory, navigate to the client directory:
 Install required packages:
 ```
 npm install typescript --save
-npm instal react-scripts --save
+npm install react-scripts --save
 npm install react --save
 npm install react-dom --save
 npm install --save-dev @types/react
