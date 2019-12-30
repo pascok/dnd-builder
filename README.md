@@ -10,7 +10,7 @@ Navigate to the client directory
 
 Install required packages:
 
-```
+### ```
 npm instal react-scripts --save
 npm install react --save
 npm install react-dom --save
