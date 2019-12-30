@@ -14,7 +14,7 @@ Navigate to the client directory
 
 Install react-scripts:
 
-### `npm instal react-scripts --save`
+### `npm install react-scripts --save`
 
 
 Run the client
