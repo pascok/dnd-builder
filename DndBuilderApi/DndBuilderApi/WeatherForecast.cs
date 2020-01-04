@@ -1,6 +1,6 @@
 using System;
 
-namespace dnd_builder_api
+namespace DndBuilderApi
 {
     public class WeatherForecast
     {
