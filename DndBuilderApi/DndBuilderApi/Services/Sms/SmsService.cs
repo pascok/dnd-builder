@@ -26,11 +26,12 @@ namespace PersonalAssistant.Services.Sms
 			var phoneNumber = new PhoneNumber(dto.PhoneNumber);
 			if (!await TwilioHelper.VerifyPhoneNumberAsync(phoneNumber))
 			{
+				// TODO Use ReturnResult class
 				return new Guid();
 			}
 
 			var messageOptions = new CreateMessageOptions(phoneNumber);
-			messageOptions.From = new PhoneNumber("+12073863924");
+			messageOptions.From = new PhoneNumber("+12073863924"); // TODO Store in config after setting up twilio account
 			messageOptions.Body = dto.Message;
 
 			MessageResource.Create(messageOptions);
